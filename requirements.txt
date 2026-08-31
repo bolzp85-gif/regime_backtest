@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+requests
+scipy
+fredapi
+plotly
+pytrends
+lxml
+html5lib
+beautifulsoup4
+trendspy>=0.1.6
+yfinance>=1.7.0
+curl_cffi
