@@ -41,16 +41,25 @@ jobs:
         run: |
           python wti_shadow_logger.py
 
-      - name: Commit updated shadow log
+      - name: Evaluate matured shadow outcomes
+        run: |
+          python wti_shadow_evaluator.py
+
+      - name: Commit updated shadow data and evaluation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add shadow_logs/wti_shadow_log.csv
           git add shadow_logs/wti_shadow_summary.csv
+          git add shadow_logs/wti_shadow_evaluation_summary.csv
+          git add shadow_logs/wti_shadow_horizon_metrics.csv
+          git add shadow_logs/wti_shadow_gate.csv
+          git add shadow_logs/wti_shadow_evaluation_history.csv
+          git add shadow_logs/wti_shadow_report.md
 
           if git diff --cached --quiet; then
-            echo "No shadow-log changes to commit."
+            echo "No shadow changes to commit."
             exit 0
           fi
 
