@@ -1,0 +1,7 @@
+criterion,passed,value
+Freeze integrity: expected Model-D version only,True,WTI_MODEL_D_FROZEN_2026-09-02_v1
+Source-health OK rate >= 95%,True,100.0%
+Model D 20D IC > Current 20D IC,False,n/a
+Model D absolute 20D IC > 0,False,n/a
+Model D Direction 20D >= 50% with at least 20 extreme signals,False,n/a; signals=0
+Model D Stress AUC >= 0.55 and >= Current with adequate event/non-event counts,False,"n/a; events=0, non-events=0"

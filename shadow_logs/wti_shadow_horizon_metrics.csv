@@ -1,0 +1,4 @@
+horizon,matured_observations,current_ic,model_d_ic,ic_delta_d_minus_current,current_direction_accuracy,current_direction_signals,current_direction_correct,model_d_direction_accuracy,model_d_direction_signals,model_d_direction_correct,current_nonoverlap_phase_median_ic,model_d_nonoverlap_phase_median_ic,nonoverlap_phases_available,bootstrap_prob_delta_positive,bootstrap_ci_low,bootstrap_ci_high
+5D,0,,,,,0,0,,0,0,,,0,,,
+20D,0,,,,,0,0,,0,0,,,0,,,
+60D,0,,,,,0,0,,0,0,,,0,,,
