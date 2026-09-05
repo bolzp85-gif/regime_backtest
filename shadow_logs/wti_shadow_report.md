@@ -1,6 +1,6 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-09-04T13:49:31.028469+00:00`
+Generated UTC: `2026-09-05T00:00:29.825574+00:00`
 
 Stage: **COLLECTING**
 
