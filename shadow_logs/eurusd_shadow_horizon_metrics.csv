@@ -1,0 +1,4 @@
+horizon,matured_observations,current_absolute_ic,model_b_absolute_ic,model_e_absolute_ic,delta_b_minus_current_ic,current_extreme_direction_accuracy,current_extreme_signals,model_b_extreme_direction_accuracy,model_b_extreme_signals,bootstrap_prob_b_better_current,bootstrap_delta_ci_low,bootstrap_delta_ci_high
+5D,0,,,,,,0,,0,,,
+20D,0,,,,,,0,,0,,,
+60D,0,,,,,,0,,0,,,

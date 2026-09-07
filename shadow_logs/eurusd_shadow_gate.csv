@@ -1,0 +1,14 @@
+role,criterion,applicable,passed,value
+Infrastructure,Frozen model/core/config integrity,True,True,OK
+Infrastructure,Source-health OK rate >= 95%,False,False,n/a
+B Absolute Direction,B absolute IC20 > 0,False,False,n/a
+B Absolute Direction,B absolute IC60 > 0,False,False,n/a
+B Relative Direction,B IC20 > Current and bootstrap P >= 75%,False,False,n/a
+B Relative Direction,B IC60 > Current and bootstrap P >= 75%,False,False,n/a
+B Extreme Direction,B extreme-score Direction20 >= 50% with >=20 signals,False,False,n/a · signals=0
+B Non-Overlap,B non-overlap median IC20 > 0 and > Current,False,False,n/a
+B Non-Overlap,B non-overlap median IC60 > 0 and > Current,False,False,n/a
+B Time Blocks,B absolute IC20 positive in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
+B Time Blocks,B absolute IC60 positive in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
+E Risk-State,E Stress AUC >= 0.55 and >= Current and >= B,False,False,n/a · events=0 · nonevents=0
+E Time Blocks,E Stress AUC > Current in >=50% of evaluable complete time blocks,False,False,n/a · blocks=0
