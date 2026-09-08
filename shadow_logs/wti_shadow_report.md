@@ -1,12 +1,12 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-09-05T00:00:29.825574+00:00`
+Generated UTC: `2026-09-08T00:01:12.180142+00:00`
 
 Stage: **COLLECTING**
 
 Frozen model: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
 
-Eligible observations: **3**
+Eligible observations: **4**
 
 ## Matured outcomes
 
