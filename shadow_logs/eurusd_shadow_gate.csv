@@ -1,6 +1,6 @@
 role,criterion,applicable,passed,value
 Infrastructure,Frozen model/core/config integrity,True,True,OK
-Infrastructure,Source-health OK rate >= 95%,False,False,n/a
+Infrastructure,Source-health OK rate >= 95%,True,True,100.0%
 B Absolute Direction,B absolute IC20 > 0,False,False,n/a
 B Absolute Direction,B absolute IC60 > 0,False,False,n/a
 B Relative Direction,B IC20 > Current and bootstrap P >= 75%,False,False,n/a
