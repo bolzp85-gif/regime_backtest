@@ -1,2 +1,2 @@
 model_version,shadow_start_date,last_observation_date,observations_total,observations_eligible,matured_5d,matured_20d,matured_60d,latest_current_score,latest_model_d_score,latest_score_delta,generated_utc
-WTI_MODEL_D_FROZEN_2026-09-02_v1,2026-09-02,2026-09-08,5,5,0,0,0,62.80277782066646,61.63138100687103,-1.1713968137954325,2026-09-09T00:02:09.090351+00:00
+WTI_MODEL_D_FROZEN_2026-09-02_v1,2026-09-02,2026-09-09,6,6,0,0,0,62.390568618681066,61.25369436700566,-1.1368742516754082,2026-09-10T00:00:05.011802+00:00
