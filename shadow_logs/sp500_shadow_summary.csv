@@ -1,0 +1,2 @@
+model_version,frozen_on_date,shadow_start_date,last_observation_date,core_sha256,config_sha256,observations_total,observations_eligible,matured_5d,matured_20d,matured_60d,latest_current_score,latest_current_coverage,generated_utc
+SP500_CURRENT_RISK_STATE_FROZEN_2026-09-11_v1,2026-09-11,2026-09-12,,936f91b579fabccfb3842911b919f2fcfb1de6bb8c601e20a6ae508357680297,5c973d98ca10c358c83be883575e678837412017f51088e175f44d0fdf55b122,0,0,0,0,0,,,2026-09-11T21:17:44.217043+00:00
