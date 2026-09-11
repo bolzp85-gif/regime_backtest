@@ -1,0 +1,68 @@
+name: SP500 Risk-State Shadow Validation
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekdays, safely after the US cash-market close. GitHub cron uses UTC.
+    - cron: "58 23 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sp500-risk-state-shadow-validation
+  cancel-in-progress: false
+
+jobs:
+  sp500-shadow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install lxml
+
+      - name: Run frozen SP500 Current Risk-State logger
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          SP500_EVENT_NOTE: ${{ vars.SP500_EVENT_NOTE }}
+        run: |
+          python sp500_shadow_logger.py
+
+      - name: Evaluate matured SP500 Risk-State outcomes
+        run: |
+          python sp500_shadow_evaluator.py
+
+      - name: Commit updated SP500 shadow data and evaluation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add shadow_logs/sp500_shadow_log.csv
+          git add shadow_logs/sp500_shadow_summary.csv
+          git add shadow_logs/sp500_shadow_evaluation_summary.csv
+          git add shadow_logs/sp500_shadow_time_blocks.csv
+          git add shadow_logs/sp500_shadow_phase_auc.csv
+          git add shadow_logs/sp500_shadow_stress_episodes.csv
+          git add shadow_logs/sp500_shadow_gate.csv
+          git add shadow_logs/sp500_shadow_evaluation_history.csv
+          git add shadow_logs/sp500_shadow_report.md
+
+          if git diff --cached --quiet; then
+            echo "No SP500 shadow changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update SP500 Current Risk-State shadow"
+          git push
