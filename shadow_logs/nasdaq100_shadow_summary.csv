@@ -1,0 +1,2 @@
+model_version,frozen_on_date,shadow_start_date,last_observation_date,core_sha256,config_sha256,observations_total,observations_eligible,matured_5d,matured_20d,matured_60d,latest_current_score,latest_current_coverage,generated_utc
+NASDAQ100_CURRENT_RISK_STATE_FROZEN_2026-09-12_v1,2026-09-12,2026-09-13,,76e74f487bc690ece657e654c334960bfd5c05dd683efff467a6ae5641100d81,5c973d98ca10c358c83be883575e678837412017f51088e175f44d0fdf55b122,0,0,0,0,0,,,2026-09-12T09:58:01.315590+00:00

@@ -1,0 +1,10 @@
+group,criterion,applicable,passed,value
+Infrastructure,Frozen model/core/config integrity,True,True,OK
+Infrastructure,Source-health OK rate >=95%,False,False,n/a
+Current Risk-State,Absolute Stress AUC >=0.60,False,False,n/a
+Current Risk-State,Phase-median Stress AUC >=0.55,False,False,n/a
+Current Risk-State,Stressrate Score<=40 minus Score>=60 >=5pp,False,False,n/a
+Current Risk-State,Higher score relates to lower forward realized volatility,False,False,n/a
+Current Risk-State,Higher score relates to better forward MAE,False,False,n/a
+Time-block Stability,AUC >0.50 in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
+Time-block Stability,Positive stress-gap in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
