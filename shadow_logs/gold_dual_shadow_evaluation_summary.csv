@@ -1,0 +1,2 @@
+generated_utc,stage,verdict,model_version,shadow_start_date,freeze_integrity,last_observation_date,d1_matured_20d,d1_ic20,d1_direction20,d1_signals20,d1_complete_blocks,d1_positive_block_rate,v1_matured_20d,v1_high_vol_auc,v1_phase_auc,v1_q20_q80_gap,v1_score_vs_lower_fwdvol,v1_complete_blocks,v1_auc_above_half_block_rate
+2026-09-12T18:37:44.797007+00:00,COLLECTING,NO_DECISION_COLLECTING,GOLD_D1_V1_DUAL_FROZEN_2026-09-12_v1,2026-09-13,True,,0,,,0,0,,0,,,,,0,

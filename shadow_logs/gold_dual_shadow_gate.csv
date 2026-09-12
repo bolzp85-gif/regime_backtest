@@ -1,0 +1,11 @@
+group,criterion,applicable,passed,value
+Infrastructure,Frozen core/spec integrity,True,True,OK
+D1 Direction,D1 IC20 >= +0.05,False,False,n/a
+D1 Direction,D1 Direction20 >=50%,False,False,n/a
+D1 Direction,Enough extreme D1 signals,False,False,0 / 30
+D1 Direction,Positive IC in >=50% complete 60-observation blocks,False,False,n/a · blocks=0
+V1 Volatility,V1 High-Vol AUC >=0.60,False,False,n/a
+V1 Volatility,V1 phase-median AUC >=0.55,False,False,n/a
+V1 Volatility,V1 Q20-Q80 High-Vol gap >=5pp,False,False,n/a
+V1 Volatility,V1 score relates >=+0.10 to lower future volatility,False,False,n/a
+V1 Volatility,AUC >0.50 in >=50% complete 60-observation blocks,False,False,n/a · blocks=0

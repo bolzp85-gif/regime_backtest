@@ -1,0 +1,2 @@
+model_version,frozen_on_date,shadow_start_date,last_observation_date,core_sha256,freeze_spec_sha256,observations_total,eligible_d1,eligible_v1,matured_5d,matured_20d,matured_60d,latest_d1_score,latest_v1_score,latest_pit_high_vol_threshold,generated_utc
+GOLD_D1_V1_DUAL_FROZEN_2026-09-12_v1,2026-09-12,2026-09-13,,9e9531c22aa7e690a88afb5eecd3822e32875495ba4d18f0e498ea6cd3a3b49c,db3d89c5da83769d6989b150b5f902075d8f0f1df1eaa010a2646a6fa9106877,0,0,0,0,0,0,,,,2026-09-12T18:37:43.921894+00:00
