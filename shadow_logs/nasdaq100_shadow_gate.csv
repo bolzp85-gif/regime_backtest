@@ -1,6 +1,6 @@
 group,criterion,applicable,passed,value
 Infrastructure,Frozen model/core/config integrity,True,True,OK
-Infrastructure,Source-health OK rate >=95%,False,False,n/a
+Infrastructure,Source-health OK rate >=95%,True,True,100.0%
 Current Risk-State,Absolute Stress AUC >=0.60,False,False,n/a
 Current Risk-State,Phase-median Stress AUC >=0.55,False,False,n/a
 Current Risk-State,Stressrate Score<=40 minus Score>=60 >=5pp,False,False,n/a
