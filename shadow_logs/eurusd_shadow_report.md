@@ -1,6 +1,6 @@
 # EUR/USD Frozen A/B/E Shadow Holdout
 
-Generated UTC: `2026-09-15T03:22:00.760639+00:00`
+Generated UTC: `2026-09-16T03:18:03.783545+00:00`
 
 Stage: **COLLECTING**
 
@@ -10,11 +10,11 @@ Frozen model version: `EURUSD_A_B_E_FROZEN_2026-09-06_v1`
 
 Shadow start: **2026-09-07**
 
-Eligible observations: **6**
+Eligible observations: **7**
 
 ## Matured outcomes
 
-- 5D: 2
+- 5D: 3
 - 20D: 0
 - 60D: 0
 
