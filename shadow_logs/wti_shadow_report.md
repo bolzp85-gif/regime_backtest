@@ -1,6 +1,6 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-09-16T01:47:39.590093+00:00`
+Generated UTC: `2026-09-17T01:51:23.944134+00:00`
 
 Stage: **COLLECTING**
 
@@ -30,7 +30,7 @@ Eligible observations: **9**
 ## Pre-registered evaluation gate
 
 - ✅ Freeze integrity: expected Model-D version only: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
-- ❌ Source-health OK rate >= 95%: `90.0%`
+- ❌ Source-health OK rate >= 95%: `81.8%`
 - ❌ Model D 20D IC > Current 20D IC: `n/a`
 - ❌ Model D absolute 20D IC > 0: `n/a`
 - ❌ Model D Direction 20D >= 50% with at least 20 extreme signals: `n/a; signals=0`
