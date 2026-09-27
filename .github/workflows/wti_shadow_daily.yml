@@ -63,6 +63,22 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: update WTI shadow validation"
-          git push
+          git commit -m "chore: update WTI Current Risk-State shadow"
+
+          for attempt in 1 2 3; do
+          echo "Push attempt $attempt"
+
+          git pull --rebase origin main
+
+          if git push origin main; then
+          echo "Push successful."
+          exit 0
+          fi
+
+          echo "Push collided with another workflow. Retrying..."
+          sleep 5
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
 
