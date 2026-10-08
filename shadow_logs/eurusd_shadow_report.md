@@ -1,6 +1,6 @@
 # EUR/USD Frozen A/B/E Shadow Holdout
 
-Generated UTC: `2026-10-07T04:16:30.660352+00:00`
+Generated UTC: `2026-10-08T04:28:34.253251+00:00`
 
 Stage: **COLLECTING**
 
@@ -15,7 +15,7 @@ Eligible observations: **10**
 ## Matured outcomes
 
 - 5D: 10
-- 20D: 3
+- 20D: 4
 - 60D: 0
 
 ## B — absolute and relative Direction evidence
@@ -31,7 +31,7 @@ Eligible observations: **10**
 - Current Stress AUC: `n/a`
 - B Stress AUC: `n/a`
 - E Stress AUC: `n/a`
-- Stress events / non-events: `3 / 0`
+- Stress events / non-events: `4 / 0`
 
 ## Fixed 60-observation stability blocks
 
@@ -43,7 +43,7 @@ Eligible observations: **10**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ❌ **Infrastructure** — Source-health OK rate >= 95%: `45.5%`
+- ❌ **Infrastructure** — Source-health OK rate >= 95%: `43.5%`
 - ⏳ **B Absolute Direction** — B absolute IC20 > 0: `n/a`
 - ⏳ **B Absolute Direction** — B absolute IC60 > 0: `n/a`
 - ⏳ **B Relative Direction** — B IC20 > Current and bootstrap P >= 75%: `n/a`
@@ -53,7 +53,7 @@ Eligible observations: **10**
 - ⏳ **B Non-Overlap** — B non-overlap median IC60 > 0 and > Current: `n/a`
 - ⏳ **B Time Blocks** — B absolute IC20 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **B Time Blocks** — B absolute IC60 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
-- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `n/a · events=3 · nonevents=0`
+- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `n/a · events=4 · nonevents=0`
 - ⏳ **E Time Blocks** — E Stress AUC > Current in >=50% of evaluable complete time blocks: `n/a · blocks=0`
 
 ## Interpretation rule
