@@ -1,6 +1,6 @@
 # S&P 500 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-07T03:51:04.810825+00:00`
+Generated UTC: `2026-10-08T04:04:47.360882+00:00`
 
 Stage: **COLLECTING**
 
