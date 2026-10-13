@@ -1,6 +1,6 @@
 # Nasdaq 100 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-10T02:50:01.625160+00:00`
+Generated UTC: `2026-10-13T04:01:46.325057+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,7 +8,7 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-13**
 
-Matured 20D observations: **0**
+Matured 20D observations: **1**
 
 ## Absolute Risk-State metrics
 
