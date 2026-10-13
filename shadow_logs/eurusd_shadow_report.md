@@ -1,6 +1,6 @@
 # EUR/USD Frozen A/B/E Shadow Holdout
 
-Generated UTC: `2026-10-10T04:17:42.732778+00:00`
+Generated UTC: `2026-10-13T05:26:56.666306+00:00`
 
 Stage: **COLLECTING**
 
@@ -15,7 +15,7 @@ Eligible observations: **10**
 ## Matured outcomes
 
 - 5D: 10
-- 20D: 5
+- 20D: 6
 - 60D: 0
 
 ## B — absolute and relative Direction evidence
@@ -24,14 +24,14 @@ Eligible observations: **10**
 - Absolute IC60: `n/a`
 - ΔIC20 B−Current: `n/a`
 - ΔIC60 B−Current: `n/a`
-- Extreme-score Direction20: `n/a` on `0` signals
+- Extreme-score Direction20: `100.0%` on `1` signals
 
 ## E — Risk-State evidence
 
 - Current Stress AUC: `n/a`
 - B Stress AUC: `n/a`
 - E Stress AUC: `n/a`
-- Stress events / non-events: `5 / 0`
+- Stress events / non-events: `6 / 0`
 
 ## Fixed 60-observation stability blocks
 
@@ -48,12 +48,12 @@ Eligible observations: **10**
 - ⏳ **B Absolute Direction** — B absolute IC60 > 0: `n/a`
 - ⏳ **B Relative Direction** — B IC20 > Current and bootstrap P >= 75%: `n/a`
 - ⏳ **B Relative Direction** — B IC60 > Current and bootstrap P >= 75%: `n/a`
-- ⏳ **B Extreme Direction** — B extreme-score Direction20 >= 50% with >=20 signals: `n/a · signals=0`
+- ⏳ **B Extreme Direction** — B extreme-score Direction20 >= 50% with >=20 signals: `100.0% · signals=1`
 - ⏳ **B Non-Overlap** — B non-overlap median IC20 > 0 and > Current: `n/a`
 - ⏳ **B Non-Overlap** — B non-overlap median IC60 > 0 and > Current: `n/a`
 - ⏳ **B Time Blocks** — B absolute IC20 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **B Time Blocks** — B absolute IC60 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
-- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `n/a · events=5 · nonevents=0`
+- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `n/a · events=6 · nonevents=0`
 - ⏳ **E Time Blocks** — E Stress AUC > Current in >=50% of evaluable complete time blocks: `n/a · blocks=0`
 
 ## Interpretation rule
