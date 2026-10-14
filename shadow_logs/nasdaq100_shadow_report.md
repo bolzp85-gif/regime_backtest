@@ -1,6 +1,6 @@
 # Nasdaq 100 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-13T04:01:46.325057+00:00`
+Generated UTC: `2026-10-14T02:14:51.496088+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,13 +8,13 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-13**
 
-Matured 20D observations: **1**
+Matured 20D observations: **2**
 
 ## Absolute Risk-State metrics
 
 - Stress AUC: `n/a`
 - Phase-median AUC: `n/a`
-- Score<=40 stress rate: `n/a`
+- Score<=40 stress rate: `0.0%`
 - Score>=60 stress rate: `n/a`
 - Stress-rate gap: `n/a`
 - Score vs lower FwdVol: `n/a`
