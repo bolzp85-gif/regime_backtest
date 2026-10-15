@@ -1,6 +1,6 @@
 # EUR/USD Frozen A/B/E Shadow Holdout
 
-Generated UTC: `2026-10-14T03:31:18.988175+00:00`
+Generated UTC: `2026-10-15T03:10:29.731442+00:00`
 
 Stage: **COLLECTING**
 
@@ -15,7 +15,7 @@ Eligible observations: **10**
 ## Matured outcomes
 
 - 5D: 10
-- 20D: 8
+- 20D: 9
 - 60D: 0
 
 ## B — absolute and relative Direction evidence
@@ -24,14 +24,14 @@ Eligible observations: **10**
 - Absolute IC60: `n/a`
 - ΔIC20 B−Current: `n/a`
 - ΔIC60 B−Current: `n/a`
-- Extreme-score Direction20: `100.0%` on `3` signals
+- Extreme-score Direction20: `100.0%` on `4` signals
 
 ## E — Risk-State evidence
 
-- Current Stress AUC: `n/a`
-- B Stress AUC: `n/a`
-- E Stress AUC: `n/a`
-- Stress events / non-events: `8 / 0`
+- Current Stress AUC: `0.000`
+- B Stress AUC: `0.000`
+- E Stress AUC: `0.000`
+- Stress events / non-events: `8 / 1`
 
 ## Fixed 60-observation stability blocks
 
@@ -43,17 +43,17 @@ Eligible observations: **10**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ❌ **Infrastructure** — Source-health OK rate >= 95%: `37.0%`
+- ❌ **Infrastructure** — Source-health OK rate >= 95%: `35.7%`
 - ⏳ **B Absolute Direction** — B absolute IC20 > 0: `n/a`
 - ⏳ **B Absolute Direction** — B absolute IC60 > 0: `n/a`
 - ⏳ **B Relative Direction** — B IC20 > Current and bootstrap P >= 75%: `n/a`
 - ⏳ **B Relative Direction** — B IC60 > Current and bootstrap P >= 75%: `n/a`
-- ⏳ **B Extreme Direction** — B extreme-score Direction20 >= 50% with >=20 signals: `100.0% · signals=3`
+- ⏳ **B Extreme Direction** — B extreme-score Direction20 >= 50% with >=20 signals: `100.0% · signals=4`
 - ⏳ **B Non-Overlap** — B non-overlap median IC20 > 0 and > Current: `n/a`
 - ⏳ **B Non-Overlap** — B non-overlap median IC60 > 0 and > Current: `n/a`
 - ⏳ **B Time Blocks** — B absolute IC20 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **B Time Blocks** — B absolute IC60 positive in >=50% of complete 60-observation blocks: `n/a · blocks=0`
-- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `n/a · events=8 · nonevents=0`
+- ⏳ **E Risk-State** — E Stress AUC >= 0.55 and >= Current and >= B: `E=0.000 · A=0.000 · B=0.000 · events=8`
 - ⏳ **E Time Blocks** — E Stress AUC > Current in >=50% of evaluable complete time blocks: `n/a · blocks=0`
 
 ## Interpretation rule
