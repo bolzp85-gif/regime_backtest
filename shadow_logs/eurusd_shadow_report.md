@@ -1,6 +1,6 @@
 # EUR/USD Frozen A/B/E Shadow Holdout
 
-Generated UTC: `2026-10-16T03:06:32.846569+00:00`
+Generated UTC: `2026-10-17T02:58:44.515801+00:00`
 
 Stage: **COLLECTING**
 
@@ -43,7 +43,7 @@ Eligible observations: **10**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ❌ **Infrastructure** — Source-health OK rate >= 95%: `34.5%`
+- ❌ **Infrastructure** — Source-health OK rate >= 95%: `33.3%`
 - ⏳ **B Absolute Direction** — B absolute IC20 > 0: `-0.745`
 - ⏳ **B Absolute Direction** — B absolute IC60 > 0: `n/a`
 - ⏳ **B Relative Direction** — B IC20 > Current and bootstrap P >= 75%: `n/a`
