@@ -1,6 +1,6 @@
 # S&P 500 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-16T02:46:45.029728+00:00`
+Generated UTC: `2026-10-17T02:38:04.279207+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,7 +8,7 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-12**
 
-Matured 20D observations: **4**
+Matured 20D observations: **5**
 
 ## Absolute Risk-State metrics
 
