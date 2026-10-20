@@ -1,6 +1,6 @@
 # Nasdaq 100 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-17T01:41:02.799924+00:00`
+Generated UTC: `2026-10-20T02:13:22.899099+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,15 +8,15 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-13**
 
-Matured 20D observations: **5**
+Matured 20D observations: **6**
 
 ## Absolute Risk-State metrics
 
 - Stress AUC: `n/a`
 - Phase-median AUC: `n/a`
 - Score<=40 stress rate: `0.0%`
-- Score>=60 stress rate: `n/a`
-- Stress-rate gap: `n/a`
+- Score>=60 stress rate: `0.0%`
+- Stress-rate gap: `+0.0%`
 - Score vs lower FwdVol: `n/a`
 - Score vs better FwdMAE: `n/a`
 
@@ -32,7 +32,7 @@ Matured 20D observations: **5**
 - ✅ **Infrastructure** — Source-health OK rate >=95%: `100.0%`
 - ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `n/a`
 - ⏳ **Current Risk-State** — Phase-median Stress AUC >=0.55: `n/a`
-- ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `n/a`
+- ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `+0.0%`
 - ⏳ **Current Risk-State** — Higher score relates to lower forward realized volatility: `n/a`
 - ⏳ **Current Risk-State** — Higher score relates to better forward MAE: `n/a`
 - ⏳ **Time-block Stability** — AUC >0.50 in >=50% of complete 60-observation blocks: `n/a · blocks=0`
