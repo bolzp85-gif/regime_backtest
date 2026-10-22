@@ -1,6 +1,6 @@
 # S&P 500 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-21T02:57:34.028172+00:00`
+Generated UTC: `2026-10-22T02:56:03.191223+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,7 +8,7 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-12**
 
-Matured 20D observations: **7**
+Matured 20D observations: **8**
 
 ## Absolute Risk-State metrics
 
@@ -29,7 +29,7 @@ Matured 20D observations: **7**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ✅ **Infrastructure** — Source-health OK rate >=95%: `100.0%`
+- ✅ **Infrastructure** — Source-health OK rate >=95%: `96.4%`
 - ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `n/a`
 - ⏳ **Current Risk-State** — Phase-median Stress AUC >=0.55: `n/a`
 - ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `n/a`
