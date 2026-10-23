@@ -1,4 +1,4 @@
 horizon,matured_observations,current_ic,model_d_ic,ic_delta_d_minus_current,current_direction_accuracy,current_direction_signals,current_direction_correct,model_d_direction_accuracy,model_d_direction_signals,model_d_direction_correct,current_nonoverlap_phase_median_ic,model_d_nonoverlap_phase_median_ic,nonoverlap_phases_available,bootstrap_prob_delta_positive,bootstrap_ci_low,bootstrap_ci_high
-5D,28,-0.38040503557744937,-0.4247400109469075,-0.04433497536945813,0.25,8,2,0.3333333333333333,6,2,,,0,,,
-20D,13,-0.7967032967032966,-0.8351648351648352,-0.03846153846153855,0.25,8,2,0.0,6,0,,,0,,,
+5D,29,-0.36798029556650236,-0.42906403940886684,-0.06108374384236448,0.25,8,2,0.3333333333333333,6,2,,,0,,,
+20D,14,-0.7978021978021977,-0.832967032967033,-0.03516483516483526,0.25,8,2,0.0,6,0,,,0,,,
 60D,0,,,,,0,0,,0,0,,,0,,,
