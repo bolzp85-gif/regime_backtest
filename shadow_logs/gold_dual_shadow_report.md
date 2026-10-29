@@ -1,6 +1,6 @@
 # Gold D1 + V1 Dual-Output Future Shadow
 
-Generated UTC: `2026-10-28T02:37:17.791819+00:00`
+Generated UTC: `2026-10-29T02:57:07.758347+00:00`
 
 Stage: **COLLECTING**
 
@@ -10,30 +10,30 @@ Shadow start: **2026-09-13**
 
 ## D1 Direction Context
 
-- Matured 20D: **12**
-- IC20: `-0.119`
+- Matured 20D: **13**
+- IC20: `-0.302`
 - Direction20: `100.0%`
-- Extreme signals: **12**
+- Extreme signals: **13**
 
 ## V1 Volatility-State
 
-- Matured 20D: **12**
+- Matured 20D: **13**
 - High-Vol AUC: `n/a`
 - Phase-median AUC: `n/a`
 - Q20-Q80 High-Vol gap: `n/a`
-- Score vs lower FwdVol: `-0.636`
+- Score vs lower FwdVol: `-0.560`
 
 ## Gates
 
 - ✅ **Infrastructure** — Frozen core/spec integrity: `OK`
-- ⏳ **D1 Direction** — D1 IC20 >= +0.05: `-0.119`
+- ⏳ **D1 Direction** — D1 IC20 >= +0.05: `-0.302`
 - ⏳ **D1 Direction** — D1 Direction20 >=50%: `100.0%`
-- ⏳ **D1 Direction** — Enough extreme D1 signals: `12 / 30`
+- ⏳ **D1 Direction** — Enough extreme D1 signals: `13 / 30`
 - ⏳ **D1 Direction** — Positive IC in >=50% complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **V1 Volatility** — V1 High-Vol AUC >=0.60: `n/a`
 - ⏳ **V1 Volatility** — V1 phase-median AUC >=0.55: `n/a`
 - ⏳ **V1 Volatility** — V1 Q20-Q80 High-Vol gap >=5pp: `n/a`
-- ⏳ **V1 Volatility** — V1 score relates >=+0.10 to lower future volatility: `-0.636`
+- ⏳ **V1 Volatility** — V1 score relates >=+0.10 to lower future volatility: `-0.560`
 - ⏳ **V1 Volatility** — AUC >0.50 in >=50% complete 60-observation blocks: `n/a · blocks=0`
 
 ## Interpretation
