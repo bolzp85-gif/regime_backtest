@@ -1,6 +1,6 @@
 # S&P 500 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-10-29T03:58:11.513555+00:00`
+Generated UTC: `2026-10-30T03:59:33.797945+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,7 +8,7 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-12**
 
-Matured 20D observations: **13**
+Matured 20D observations: **14**
 
 ## Absolute Risk-State metrics
 
@@ -17,8 +17,8 @@ Matured 20D observations: **13**
 - Score<=40 stress rate: `0.0%`
 - Score>=60 stress rate: `n/a`
 - Stress-rate gap: `n/a`
-- Score vs lower FwdVol: `+0.555`
-- Score vs better FwdMAE: `-0.659`
+- Score vs lower FwdVol: `+0.609`
+- Score vs better FwdMAE: `-0.657`
 
 ## Descriptive early-warning episodes
 
@@ -29,12 +29,12 @@ Matured 20D observations: **13**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ✅ **Infrastructure** — Source-health OK rate >=95%: `97.0%`
+- ✅ **Infrastructure** — Source-health OK rate >=95%: `97.1%`
 - ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `n/a`
 - ⏳ **Current Risk-State** — Phase-median Stress AUC >=0.55: `n/a`
 - ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `n/a`
-- ⏳ **Current Risk-State** — Higher score relates to lower forward realized volatility: `+0.555`
-- ⏳ **Current Risk-State** — Higher score relates to better forward MAE: `-0.659`
+- ⏳ **Current Risk-State** — Higher score relates to lower forward realized volatility: `+0.609`
+- ⏳ **Current Risk-State** — Higher score relates to better forward MAE: `-0.657`
 - ⏳ **Time-block Stability** — AUC >0.50 in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **Time-block Stability** — Positive stress-gap in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 
