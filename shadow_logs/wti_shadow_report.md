@@ -1,40 +1,40 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-11-04T03:25:34.555049+00:00`
+Generated UTC: `2026-11-05T03:47:27.043686+00:00`
 
 Stage: **COLLECTING**
 
 Frozen model: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
 
-Eligible observations: **42**
+Eligible observations: **43**
 
 ## Matured outcomes
 
-- 5D: 36
-- 20D: 22
+- 5D: 37
+- 20D: 23
 - 60D: 0
 
 ## Horizon metrics
 
 | Horizon | Current IC | Model D IC | Δ D−Current | Current Direction | Model D Direction | D Signals | Bootstrap P(Δ>0) |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 5D | -0.307 | -0.363 | -0.057 | 25.0% | 33.3% | 6 | n/a |
-| 20D | -0.859 | -0.841 | +0.018 | 25.0% | 0.0% | 6 | n/a |
+| 5D | -0.242 | -0.302 | -0.060 | 25.0% | 33.3% | 6 | n/a |
+| 20D | -0.784 | -0.768 | +0.016 | 25.0% | 0.0% | 6 | n/a |
 | 60D | n/a | n/a | n/a | n/a | n/a | 0 | n/a |
 
 ## Risk-state metrics
 
-- Current Stress AUC 20D: 0.021
+- Current Stress AUC 20D: 0.020
 - Model D Stress AUC 20D: 0.010
 
 ## Pre-registered evaluation gate
 
 - ✅ Freeze integrity: expected Model-D version only: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
-- ❌ Source-health OK rate >= 95%: `93.3%`
-- ✅ Model D 20D IC > Current 20D IC: `D -0.841 vs Current -0.859`
-- ❌ Model D absolute 20D IC > 0: `-0.841`
+- ❌ Source-health OK rate >= 95%: `93.5%`
+- ✅ Model D 20D IC > Current 20D IC: `D -0.768 vs Current -0.784`
+- ❌ Model D absolute 20D IC > 0: `-0.768`
 - ❌ Model D Direction 20D >= 50% with at least 20 extreme signals: `0.0%; signals=6`
-- ❌ Model D Stress AUC >= 0.55 and >= Current with adequate event/non-event counts: `D 0.010 vs Current 0.021; events=6, non-events=16`
+- ❌ Model D Stress AUC >= 0.55 and >= Current with adequate event/non-event counts: `D 0.010 vs Current 0.020; events=6, non-events=17`
 
 ## Verdict: **NO_DECISION_COLLECTING**
 
