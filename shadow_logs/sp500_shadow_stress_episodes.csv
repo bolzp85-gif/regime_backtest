@@ -1,2 +1,3 @@
 stress_onset_date,score_at_onset,pre_alert_score_le40,first_alert_lead_observations,last_alert_lead_observations
 2026-10-08,48.75838200504103,True,17,5
+2026-10-15,42.08566686621864,True,11,10
