@@ -1,6 +1,6 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-11-17T05:17:31.683577+00:00`
+Generated UTC: `2026-11-18T04:46:35.015007+00:00`
 
 Stage: **COLLECTING**
 
@@ -18,7 +18,7 @@ Eligible observations: **52**
 
 | Horizon | Current IC | Model D IC | Δ D−Current | Current Direction | Model D Direction | D Signals | Bootstrap P(Δ>0) |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 5D | +0.032 | +0.001 | -0.031 | 53.8% | 69.2% | 13 | n/a |
+| 5D | +0.032 | +0.002 | -0.030 | 53.8% | 69.2% | 13 | n/a |
 | 20D | -0.477 | -0.361 | +0.115 | 25.0% | 0.0% | 6 | n/a |
 | 60D | n/a | n/a | n/a | n/a | n/a | 0 | n/a |
 
