@@ -1,16 +1,16 @@
 # WTI Shadow Holdout Evaluation
 
-Generated UTC: `2026-11-18T04:46:35.015007+00:00`
+Generated UTC: `2026-11-19T04:36:05.986233+00:00`
 
 Stage: **COLLECTING**
 
 Frozen model: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
 
-Eligible observations: **52**
+Eligible observations: **53**
 
 ## Matured outcomes
 
-- 5D: 46
+- 5D: 47
 - 20D: 32
 - 60D: 0
 
@@ -18,7 +18,7 @@ Eligible observations: **52**
 
 | Horizon | Current IC | Model D IC | Δ D−Current | Current Direction | Model D Direction | D Signals | Bootstrap P(Δ>0) |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 5D | +0.032 | +0.002 | -0.030 | 53.8% | 69.2% | 13 | n/a |
+| 5D | +0.053 | +0.026 | -0.027 | 57.1% | 71.4% | 14 | n/a |
 | 20D | -0.477 | -0.361 | +0.115 | 25.0% | 0.0% | 6 | n/a |
 | 60D | n/a | n/a | n/a | n/a | n/a | 0 | n/a |
 
@@ -30,7 +30,7 @@ Eligible observations: **52**
 ## Pre-registered evaluation gate
 
 - ✅ Freeze integrity: expected Model-D version only: `WTI_MODEL_D_FROZEN_2026-09-02_v1`
-- ❌ Source-health OK rate >= 95%: `94.5%`
+- ❌ Source-health OK rate >= 95%: `94.6%`
 - ✅ Model D 20D IC > Current 20D IC: `D -0.361 vs Current -0.477`
 - ❌ Model D absolute 20D IC > 0: `-0.361`
 - ❌ Model D Direction 20D >= 50% with at least 20 extreme signals: `0.0%; signals=6`

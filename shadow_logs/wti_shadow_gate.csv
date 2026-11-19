@@ -1,6 +1,6 @@
 criterion,passed,value
 Freeze integrity: expected Model-D version only,True,WTI_MODEL_D_FROZEN_2026-09-02_v1
-Source-health OK rate >= 95%,False,94.5%
+Source-health OK rate >= 95%,False,94.6%
 Model D 20D IC > Current 20D IC,True,D -0.361 vs Current -0.477
 Model D absolute 20D IC > 0,False,-0.361
 Model D Direction 20D >= 50% with at least 20 extreme signals,False,0.0%; signals=6
