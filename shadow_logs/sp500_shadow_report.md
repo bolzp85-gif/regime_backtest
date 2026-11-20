@@ -1,6 +1,6 @@
 # S&P 500 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-11-19T05:34:09.845412+00:00`
+Generated UTC: `2026-11-20T05:22:23.811236+00:00`
 
 Stage: **COLLECTING**
 
@@ -8,33 +8,33 @@ Verdict: **NO_DECISION_COLLECTING**
 
 Shadow start: **2026-09-12**
 
-Matured 20D observations: **27**
+Matured 20D observations: **28**
 
 ## Absolute Risk-State metrics
 
-- Stress AUC: `0.236`
+- Stress AUC: `0.364`
 - Phase-median AUC: `n/a`
-- Score<=40 stress rate: `0.0%`
+- Score<=40 stress rate: `12.5%`
 - Score>=60 stress rate: `n/a`
 - Stress-rate gap: `n/a`
-- Score vs lower FwdVol: `+0.205`
-- Score vs better FwdMAE: `-0.319`
+- Score vs lower FwdVol: `+0.287`
+- Score vs better FwdMAE: `-0.183`
 
 ## Descriptive early-warning episodes
 
-- Stress episode onsets: **2**
+- Stress episode onsets: **3**
 - Prior Score<=40 alert rate: `100.0%`
-- Median earliest alert lead: `14.0 eligible observations`
+- Median earliest alert lead: `15.0 eligible observations`
 
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ✅ **Infrastructure** — Source-health OK rate >=95%: `97.9%`
-- ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `0.236`
+- ✅ **Infrastructure** — Source-health OK rate >=95%: `98.0%`
+- ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `0.364`
 - ⏳ **Current Risk-State** — Phase-median Stress AUC >=0.55: `n/a`
 - ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `n/a`
-- ⏳ **Current Risk-State** — Higher score relates to lower forward realized volatility: `+0.205`
-- ⏳ **Current Risk-State** — Higher score relates to better forward MAE: `-0.319`
+- ⏳ **Current Risk-State** — Higher score relates to lower forward realized volatility: `+0.287`
+- ⏳ **Current Risk-State** — Higher score relates to better forward MAE: `-0.183`
 - ⏳ **Time-block Stability** — AUC >0.50 in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 - ⏳ **Time-block Stability** — Positive stress-gap in >=50% of complete 60-observation blocks: `n/a · blocks=0`
 
