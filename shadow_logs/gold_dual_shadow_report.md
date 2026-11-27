@@ -1,6 +1,6 @@
 # Gold D1 + V1 Dual-Output Future Shadow
 
-Generated UTC: `2026-11-26T05:30:32.142559+00:00`
+Generated UTC: `2026-11-27T05:25:08.812990+00:00`
 
 Stage: **COLLECTING**
 
@@ -11,7 +11,7 @@ Shadow start: **2026-09-13**
 ## D1 Direction Context
 
 - Matured 20D: **34**
-- IC20: `-0.677`
+- IC20: `-0.672`
 - Direction20: `100.0%`
 - Extreme signals: **30**
 
@@ -26,7 +26,7 @@ Shadow start: **2026-09-13**
 ## Gates
 
 - ✅ **Infrastructure** — Frozen core/spec integrity: `OK`
-- ⏳ **D1 Direction** — D1 IC20 >= +0.05: `-0.677`
+- ⏳ **D1 Direction** — D1 IC20 >= +0.05: `-0.672`
 - ⏳ **D1 Direction** — D1 Direction20 >=50%: `100.0%`
 - ⏳ **D1 Direction** — Enough extreme D1 signals: `30 / 30`
 - ⏳ **D1 Direction** — Positive IC in >=50% complete 60-observation blocks: `n/a · blocks=0`

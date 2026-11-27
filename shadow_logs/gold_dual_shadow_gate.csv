@@ -1,6 +1,6 @@
 group,criterion,applicable,passed,value
 Infrastructure,Frozen core/spec integrity,True,True,OK
-D1 Direction,D1 IC20 >= +0.05,False,False,-0.677
+D1 Direction,D1 IC20 >= +0.05,False,False,-0.672
 D1 Direction,D1 Direction20 >=50%,False,True,100.0%
 D1 Direction,Enough extreme D1 signals,False,True,30 / 30
 D1 Direction,Positive IC in >=50% complete 60-observation blocks,False,False,n/a · blocks=0
