@@ -4,7 +4,7 @@ Infrastructure,Source-health OK rate >=95%,True,False,90.6%
 Current Risk-State,Absolute Stress AUC >=0.60,False,False,0.587
 Current Risk-State,Phase-median Stress AUC >=0.55,False,False,n/a
 Current Risk-State,Stressrate Score<=40 minus Score>=60 >=5pp,False,True,+13.3%
-Current Risk-State,Higher score relates to lower forward realized volatility,False,True,+0.478
+Current Risk-State,Higher score relates to lower forward realized volatility,False,True,+0.477
 Current Risk-State,Higher score relates to better forward MAE,False,True,+0.092
 Time-block Stability,AUC >0.50 in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
 Time-block Stability,Positive stress-gap in >=50% of complete 60-observation blocks,False,False,n/a · blocks=0
