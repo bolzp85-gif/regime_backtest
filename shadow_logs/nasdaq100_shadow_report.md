@@ -1,6 +1,6 @@
 # Nasdaq 100 Current-only Risk-State Future Shadow
 
-Generated UTC: `2026-11-27T05:28:20.638667+00:00`
+Generated UTC: `2026-11-28T05:03:29.573819+00:00`
 
 Stage: **COLLECTING**
 
@@ -29,7 +29,7 @@ Matured 20D observations: **32**
 ## Gate
 
 - ✅ **Infrastructure** — Frozen model/core/config integrity: `OK`
-- ❌ **Infrastructure** — Source-health OK rate >=95%: `90.6%`
+- ❌ **Infrastructure** — Source-health OK rate >=95%: `88.9%`
 - ⏳ **Current Risk-State** — Absolute Stress AUC >=0.60: `0.587`
 - ⏳ **Current Risk-State** — Phase-median Stress AUC >=0.55: `n/a`
 - ⏳ **Current Risk-State** — Stressrate Score<=40 minus Score>=60 >=5pp: `+13.3%`
